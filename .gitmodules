@@ -1,0 +1,12 @@
+[submodule "docker_images"]
+	path = docker_images
+	url = https://github.com/the-patpat/docker_images.git
+	branch = melodic_cuda
+[submodule "RumexWeeds"]
+	path = RumexWeeds
+	url = https://github.com/the-patpat/RumexWeeds.git
+	branch = release_v1
+[submodule "yolor"]
+	path = yolor
+	url = https://github.com/the-patpat/yolor.git
+	branch = feature/tensorrt
