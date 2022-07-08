@@ -34,6 +34,7 @@ RUN cd / && cd rumexweeds_github/tools/catkin_ws/ && . "/opt/ros/melodic/setup.s
 RUN apt install ros-melodic-imu-filter-madgwick ros-melodic-imu-transformer -q -y
 
 COPY ./ros_entrypoint.sh /
+COPY .git /.git
 
 ENTRYPOINT ["/ros_entrypoint.sh"]
 CMD ["bash"]
