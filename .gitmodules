@@ -10,3 +10,7 @@
 	path = yolor
 	url = https://github.com/the-patpat/yolor.git
 	branch = feature/tensorrt
+[submodule "jetson-containers"]
+	path = jetson-containers
+	url = https://github.com/the-patpat/jetson-containers.git
+	branch = l4t-ml_r32.7.1-py3-ros-melodic
