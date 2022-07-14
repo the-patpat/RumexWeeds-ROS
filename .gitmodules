@@ -9,7 +9,7 @@
 [submodule "yolor"]
 	path = yolor
 	url = https://github.com/the-patpat/yolor.git
-	branch = feature/tensorrt
+	branch = feature/tensorrt_jetson
 [submodule "jetson-containers"]
 	path = jetson-containers
 	url = https://github.com/the-patpat/jetson-containers.git
