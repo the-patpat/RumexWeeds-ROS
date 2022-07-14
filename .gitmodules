@@ -5,7 +5,7 @@
 [submodule "RumexWeeds"]
 	path = RumexWeeds
 	url = https://github.com/the-patpat/RumexWeeds.git
-	branch = release_v1
+	branch = release_v1_tensorrt
 [submodule "yolor"]
 	path = yolor
 	url = https://github.com/the-patpat/yolor.git
