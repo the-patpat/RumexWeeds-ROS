@@ -16,6 +16,11 @@ Before building the image, make sure that all Git submodules are up-to-date:
 ```
 $ git submodule update --init --recursive --remote
 ```
+Also, make sure that you download the pre-trained weights for the YOLOR model. This is done through git-lfs, but is not guaranteed to work as the repo has bandwith limits imposed by GitHub.
+```
+$ cd yolor && git lfs pull
+```
+
 
 To build the image, you execute the `deploy.sh` script. Make sure it's executable and do the follwing in the terminal:
 ```
