@@ -18,7 +18,7 @@ $ git submodule update --init --recursive --remote
 ```
 Also, make sure that you download the pre-trained weights for the YOLOR model. This is done through git-lfs, but is not guaranteed to work as the repo has bandwith limits imposed by GitHub.
 ```
-$ cd yolor && git lfs pull
+$ git lfs pull
 ```
 
 
